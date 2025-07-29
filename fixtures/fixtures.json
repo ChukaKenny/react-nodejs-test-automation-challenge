@@ -1,0 +1,18 @@
+{
+  "login": {
+    "username": "admin",
+    "password": "password123",
+    "welcomeText": "Welcome, admin"
+  },
+  "task": {
+    "createdTitle": "REM Waste Management Task",
+    "createdDescription": "Its going well",
+    "createdTaskPriority": "low",
+    "editTitle": "Commit Changes",
+    "editDescription": "Updating the task description...",
+    "editPriority": "medium"
+  },
+  "deleteDialog": {
+    "message": "Are you sure you want to delete this task?"
+  }
+}
