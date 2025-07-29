@@ -45,7 +45,6 @@ qa-automation-assessment/
 **Postman**
 - **Automated Tests**: Written using [Postman], tests common user flows such as Login , Create, Edit and Delete. File directory: `postman-collection/RestfulBooker(Nodejs).postman_collection`
 - **Collection Variables**: Dynamically stored collection variables for better reusability.
-- **GitHub Actions CI**: Configured in `.github/workflows/postman.yml` to run tests on push and pull requests.
 
 
 ## How to Run Tests Locally
