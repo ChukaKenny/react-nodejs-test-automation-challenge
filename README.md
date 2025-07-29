@@ -15,7 +15,7 @@ qa-automation-assessment/
 │   └── workflows/
 │       ├── playwright.yml         # UI test automation
 │       └── postman.yml            # API test automation
-├── fixtures/
+├── utils/
 │   └── fixtures.json              # Test data
 ├── objectRepository/
 │   ├── loginPage.js               # Login page objects
@@ -43,7 +43,7 @@ qa-automation-assessment/
 - **GitHub Actions CI**: Configured in `.github/workflows/playwright.yml` to run tests on push and pull requests.
 
 **Postman**
-- **Automated Tests**: Written using [Postman], tests common user flows such as Login , Create, Edit and Delete. File directory: `postman-collection/restful-booker-api.json`
+- **Automated Tests**: Written using [Postman], tests common user flows such as Login , Create, Edit and Delete. File directory: `postman-collection/RestfulBooker(Nodejs).postman_collection`
 - **Collection Variables**: Dynamically stored collection variables for better reusability.
 - **GitHub Actions CI**: Configured in `.github/workflows/postman.yml` to run tests on push and pull requests.
 
@@ -91,7 +91,7 @@ qa-automation-assessment/
 
 3. Run the Postman collection:
   
-    newman run ./postman-collection/restful-booker-api.json --reporters cli,htmlextra --reporter-htmlextra-export newman-report.html
+    newman run ./postman-collection/RestfulBooker(Nodejs).postman_collection --reporters cli,htmlextra --reporter-htmlextra-export newman-report.html
 
    
 
